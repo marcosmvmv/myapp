@@ -1,0 +1,48 @@
+#cards-container {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: black;
+}
+
+#cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+}
+
+.banner1 {
+    background-image: url('https://img.olhardigital.com.br/wp-content/uploads/2022/01/The-Batman.jpg');
+}
+
+.banner2 {
+    background-image: url('https://images.elle.com.br/2022/08/origin-118.jpg');
+}
+
+.banner3 {
+    background-image: url('https://i.pinimg.com/736x/0d/8f/a5/0d8fa5701d1580a6744696fcf1100610.jpg');
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'kdam thmor pro', sans-serif;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}

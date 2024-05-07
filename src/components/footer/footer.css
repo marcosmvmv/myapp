@@ -1,0 +1,33 @@
+footer {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+
+.list-navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+img {
+    width: 150px;
+    height: auto;
+}
+
+li {
+    margin-right: 80px;
+}
+
+#copyright {
+    font-family: 'kdam thmor pro', sans-serif;
+    font-size: 17px;
+    color: #fff;
+    margin-top: 5px;
+    text-align: center;
+}
